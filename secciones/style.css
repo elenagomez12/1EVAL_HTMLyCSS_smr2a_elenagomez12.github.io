@@ -1,0 +1,28 @@
+header{
+    border: 3px aqua solid;
+    height: 28%;
+    display: block;
+}
+nav{
+    border: 3px black solid;
+    height: 60%;
+}
+footer{
+    border: 3px salmon solid;
+    height: 20%;
+}
+li.menu{
+    list-style-type: none;
+    display: inline-block;
+    margin: 1px;
+    padding: 2px;
+    padding-left: 10%;
+}
+div.logo{
+    width: 30%;
+    display: inline;
+}
+div.menu{
+    width: 60%;
+    display: inline;
+}

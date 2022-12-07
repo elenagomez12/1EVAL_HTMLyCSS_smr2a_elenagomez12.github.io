@@ -1,0 +1,15 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: darkslateblue;
+}
+
+body {
+    background-color: lavender;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

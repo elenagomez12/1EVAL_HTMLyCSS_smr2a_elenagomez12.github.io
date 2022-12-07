@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio formulario</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <form action="procesarformulario.php" method="get">
+            <label for="nombre">Nombre: <input type="text" name="nombre" size="40" id="nombre" required></label>
+            <p>Apellidos: <input type="text" name="apellido" size="40" required></p>
+            <p>Email <input type="email" name="email" size="40" required placeholder="usuario@dominio"></p>
+            <p>Año de nacimiento: <input type="number" name="nacido" min="1900" max="2022" required></p>
+            <p>Lugar de nacimiento:
+                <select name="lugarnac" id="lugarnac">
+                        <option value=" " selected> </option>
+                    <optgroup label="Cataluña">
+                        <option value="B">Barcelona</option>
+                        <option value="T">Tarragona</option>
+                    </optgroup>
+                    <optgroup label="Comunidad de Madrid">
+                        <option value="M">Madrid</option>
+                    </optgroup>
+                    <optgroup label="Andalucía">
+                        <option value="S">Sevilla</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>Foto del dni: <input type="file" name="fotodni" accept=".pdf,.jpg" required></p>
+            <p>Sexo:
+                <input type="radio" name="hm" value="h"> Hombre
+                <input type="radio" name="hm" value="m"> Mujer
+                <input type="radio" name="hm" value="o"> Otro
+                <input type="text" name="otro" size="20">
+                <input type="radio" name="hm" value="p"> Prefiero no contestar
+            </p>
+    </fieldset>
+            <p>Deportes:
+                <input type="checkbox" name="Baloncesto" value="b"> Baloncesto
+                <input type="checkbox" name="Tenis" value="t"> Tenis
+                <input type="checkbox" name="Futbol" value="f"> Fútbol
+            </p>
+            <p>Lugares visitados:
+                <select name="lugarvis[]" id="lugarvis" multiple>
+                        <option value=" " selected> </option>
+                    <optgroup label="Cataluña">
+                        <option value="Ba">Barcelona</option>
+                        <option value="Ta">Tarragona</option>
+                    </optgroup>
+                    <optgroup label="Comunidad de Madrid">
+                        <option value="Ma">Madrid</option>
+                    </optgroup>
+                    <optgroup label="Andalucía">
+                        <option value="Se">Sevilla</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <button>
+                    Botón creado con la etiqueta button.
+                    <img src="./img/descarga.png" alt="leoncito">
+                </button>
+            </p>
+            <p>
+                <textarea name="texto" rows="15" cols="100" placeholder="Escribe tus comentarios"></textarea>
+            </p>
+            <p>
+             <input type="submit" value="Enviar">
+             <input type="reset" value="Borrar">
+            </p>
+       
+    </form>
+</body>
+</html>

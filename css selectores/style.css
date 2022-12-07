@@ -1,0 +1,33 @@
+p {
+    color: blueviolet;
+}
+
+span {
+    background-color: yellow;
+}
+
+.parrafosimpares {
+    color: brown;
+}
+
+#parrafo2 {
+    color: blue;
+}
+
+#parrafo4 {
+    color: cadetblue;
+}
+
+span.masimportante {
+    color: darkgoldenrod;
+}
+
+p em {
+    background-color: beige;
+}
+
+p.cursiva {
+    font-style: oblique;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}

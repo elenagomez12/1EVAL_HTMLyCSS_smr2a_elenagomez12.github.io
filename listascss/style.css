@@ -1,0 +1,15 @@
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-image: url("./img/descarga.png");
+}
+dt.personalizado{
+    background-color: bisque;
+    border-color: darkgoldenrod;
+    border-style: dotted;
+    border-width: 2px;
+    padding: 6px;
+    width: 30%;
+    height: 50px;
+}

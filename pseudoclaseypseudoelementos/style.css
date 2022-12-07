@@ -1,0 +1,21 @@
+/* Autora Elena Gómez Gabaldón */
+header :first-child{
+    color: blueviolet;
+}
+a:link{
+    background-color: bisque;
+}
+a:visited{
+    background-color: burlywood;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+}
+a:active{
+    background-color: blueviolet;
+    color:blanchedalmond
+}
